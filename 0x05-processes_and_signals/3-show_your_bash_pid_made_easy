@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-<<<<<<< HEAD
 # prints bash pid
 
 pgrep -l bash
-=======
-# script that displays a list of currently running processes
-ps -faux
->>>>>>> 44243eecc3b95d60708404c4ce11af93eb8da164
