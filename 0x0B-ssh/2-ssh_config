@@ -2,6 +2,6 @@
 #
 Host 330420-web-01
 	Hostname 2-ssh_config
-	User ubuntu@54.157.182.242
+	User ubuntu@100.25.129.130
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
