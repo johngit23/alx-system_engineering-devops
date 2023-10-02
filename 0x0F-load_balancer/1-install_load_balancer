@@ -41,7 +41,7 @@ defaults
 
 frontend johngit23-tech-frontend
     bind *:80
-    default_backend th3gr00t-tech-backend
+    default_backend johngit23-tech-backend
 
 backend johngit23-tech-backend
     balance roundrobin
