@@ -39,14 +39,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend th3gr00t-tech-frontend
+frontend johngit23-tech-frontend
     bind *:80
     default_backend th3gr00t-tech-backend
 
-backend th3gr00t-tech-backend
+backend johngit23-tech-backend
     balance roundrobin
-    server 453-web-01 35.243.128.200:80 check
-    server 453-web-02 3.239.120.96:80 check
+    server 330420-web-01 100.25.129.130:80 check
+    server 330420-web-02 35.153.50.107:80 check
 "
 
 # shellcheck disable=SC2154
