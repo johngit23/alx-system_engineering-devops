@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+# Configure a ufw fiewall to block all incoming traffic
+# Except for TCP ports 22, 80 and 443
+
 sudo apt-get install ufw -y
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
