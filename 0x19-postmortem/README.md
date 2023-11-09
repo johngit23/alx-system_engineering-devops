@@ -55,9 +55,8 @@ and could have been addressed earlier, had the app been tested regularly.
 [UptimeRobot](./https://uptimerobot.com/) to alert instantly upon outage of the website.
 
 Note that in response to this error, I wrote a Puppet manifest
-[0-strace_is_your_friend.pp](https://github.com/bdbaraban/holberton-system_engineering-devops/blob/master/0x17-web_stack_debugging_3/0-strace_is_your_friend.pp)
+[0-strace_is_your_friend.pp](https://github.com/johngit23/alx-system_engineering-devops/blob/master/0x17-web_stack_debugging_3/0-strace_is_your_friend.pp)
 to automate fixing of any such identitical errors should they occur in the future. The manifest
 replaces any `phpp` extensions in the file `/var/www/html/wp-settings.php` with `php`.
 
-But of course, it will never occur again, because we're programmers, and we never make
-errors! :wink:
+Of course, this dangerous bug will be impresoned in a highly secured prison under armed watch, but Bug Busters should always on the lookout for any copy cats that may still rise!
